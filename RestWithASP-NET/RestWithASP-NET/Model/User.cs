@@ -23,6 +23,6 @@ namespace RestWithASP_NET.Model
         public string RefreshToken { get; set; }
 
         [Column("refresh_token_expiry_time")]
-        public string RefreshTokenEspiryTime { get; set; }
+        public DateTime RefreshTokenEspiryTime { get; set; }
     }
 }
